@@ -1,0 +1,173 @@
+.projects {
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    width: 370px;
+    height: auto;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1.25rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.titles {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, #ff0831, #e5009d, #001aff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: none;
+}
+
+.image {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.imgp {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.link {
+    text-decoration: none;
+    background: linear-gradient(135deg, #ff0831, #e5009d, #001aff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: none;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.link:hover {
+    color: #0056b3;
+    transform: scale(1.1);
+}
+
+.icon {
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 1024px) {
+    .projects {
+        justify-content: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .image {
+        height: 220px;
+        overflow: hidden;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .projects {
+        margin: 20px;
+        padding: 10px;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .card {
+        width: 90%;
+        margin: 0;
+    }
+
+    .titles {
+        font-size: 1.2rem;
+    }
+
+    .links {
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        position: static;
+        background-color: transparent;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        transition: none;
+    }
+
+    .link {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .projects {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .titles {
+        font-size: 1rem;
+    }
+
+    .links {
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        position: static;
+        background-color: transparent;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        transition: none;
+    }
+
+    .link {
+        font-size: 0.9rem;
+        justify-content: center;
+    }
+}

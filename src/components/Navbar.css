@@ -1,0 +1,119 @@
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding: 0 20px;
+  }
+  
+  .links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 70px;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .links ul li {
+    font-weight: 400;
+    font-size: 19px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .links li:hover {
+    background: linear-gradient(135deg, #ff0831, #e5009d, #001aff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .btn-n {
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(135deg, #6e34f6, #7190f4);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .btn-n:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  h2 {
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(135deg, #ff0831, #e5009d, #001aff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger .bar {
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+    background-color: #333;
+    transition: all 0.3s ease;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .links ul {
+      flex-direction: column;
+      gap: 20px;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20px 0;
+      display: none;
+    }
+  
+    .links.open ul {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  }
+  .btn-n{
+  display: none;
+
+  }
+
+  @media (min-width: 769px) {
+    .btn-n {
+    display: block;
+   
+    }
+  } 
+
+
+  
+  
+ 
+
+
+  
+ 
+  
