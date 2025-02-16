@@ -7,7 +7,11 @@ export default defineConfig({
   resolve: {
     alias: {
       'framer-motion': 'framer-motion',
+      'react-icons/md': 'react-icons/md',
+      'react-icons/fa': 'react-icons/fa',
+      'react-icons/io5': 'react-icons/io5',
     },
   },
 })
+
 
