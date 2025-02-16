@@ -5,7 +5,7 @@ import profileImg from '../assets/my.jpeg'
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import { Link } from 'react-scroll';
 
-const Home = () => {
+const My = () => {
   return (
     <div>
         <Navbar/>
@@ -47,4 +47,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default My;
