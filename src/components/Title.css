@@ -1,28 +1,25 @@
 .title {
-    text-align: center;
-    color: #757575;
-    font-size: 19px;
-    font-weight: 600px;
+  text-align: center;
+  color: #757575;
+  font-size: 19px;
+  font-weight: 600px;
 
-    margin: 70px 0px 30px;
+  margin: 70px 0px 30px;
 }
 
 .title h1 {
-    font-size: 32px;
-    color: #000000;
-    text-transform: none;
-
+  font-size: 32px;
+  color: #000000;
+  text-transform: none;
 }
-
 
 .h:hover {
-    background: linear-gradient(135deg, #ff0831, #e5009d, #001aff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(135deg, #ff0831, #e5009d, #001aff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-
 .title p {
-    margin-top: 15px;
+  margin-top: 15px;
 }

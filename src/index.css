@@ -1,20 +1,17 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-
 }
-body{
+body {
   min-height: 100vh;
   width: 80%;
   margin: auto;
   color: black;
   background-color: #fafafa;
-  font-family: Rubik,sans-serif;
+  font-family: Rubik, sans-serif;
   font-size: 18px;
   font-weight: 340;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 }
-

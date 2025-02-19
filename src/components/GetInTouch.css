@@ -1,235 +1,228 @@
 .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 100px auto;
-    gap: 80px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+  gap: 80px;
 }
 
 .contact-sec {
-    display: flex;
-    gap: 150px;
+  display: flex;
+  gap: 150px;
 }
 
 .left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
 }
 
 .left h1 {
-    font-size: 35px;
-    font-weight: 700;
+  font-size: 35px;
+  font-weight: 700;
 
-    background: linear-gradient(135deg, #6e34f6, #7190f4);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(135deg, #6e34f6, #7190f4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .left p {
-    max-width: 100%;
-    color: black;
-    font-size: 17px;
-    line-height: 1.7;
-    font-weight: 400;
+  max-width: 100%;
+  color: black;
+  font-size: 17px;
+  line-height: 1.7;
+  font-weight: 400;
 }
 
 .details {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    color: black;
-    font-size: 17px;
-    font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: black;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 .icon {
-    color: #5d00ff;
-    transition: color 0.3s ease, transform 0.2s;
-
+  color: #5d00ff;
+  transition:
+    color 0.3s ease,
+    transform 0.2s;
 }
 
 .icon:hover {
-    color: #0056b3;
-    transform: scale(1.1);
+  color: #0056b3;
+  transform: scale(1.1);
 }
 
 .indiv {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .right {
-    width: 50%;
-    padding: 30px;
-    border: 1px solid rgba(0, 0, 0, .1);
-    border-radius: 1.25rem;
-    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+  width: 50%;
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1.25rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .right button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .right form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
 }
 
 .right label {
-    font-size: 20px;
-    font-weight: 500;
-    color: #7a7970;
-    margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #7a7970;
+  margin-bottom: 5px;
 }
 
 .right input {
-    border: none;
-    width: 500px;
-    height: 65px;
-    padding-left: 20px;
-    border-radius: 10px;
-    background: #32323c;
-    color: white;
-    font-family: outfit;
-    font-size: 20px;
+  border: none;
+  width: 500px;
+  height: 65px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background: #32323c;
+  color: white;
+  font-family: outfit;
+  font-size: 20px;
 }
-
-
 
 .right textarea {
-    color: white;
-    width: 500px;
-    border: none;
-    border-radius: 10px;
-    font-size: 15px;
-    background: #32323c;
+  color: white;
+  width: 500px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  background: #32323c;
 }
-
-
 
 @media (max-width: 1024px) {
-    .contact-sec {
-        flex-direction: column;
-        align-items: center;
-        gap: 40px;
-    }
+  .contact-sec {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
 
-    .left {
-        width: 80%;
-        text-align: center;
-    }
+  .left {
+    width: 80%;
+    text-align: center;
+  }
 
-    .left .details {
-        align-items: center;
-    }
+  .left .details {
+    align-items: center;
+  }
 
-    .right {
-        width: 80%;
-        padding: 20px;
-    }
+  .right {
+    width: 80%;
+    padding: 20px;
+  }
 
-    .right input,
-    .right textarea {
-        width: 100%;
-    }
+  .right input,
+  .right textarea {
+    width: 100%;
+  }
 
-    .right label {
-        font-size: 1.1rem;
-    }
+  .right label {
+    font-size: 1.1rem;
+  }
 
-    .right input,
-    .right textarea {
-        font-size: 1rem;
-    }
+  .right input,
+  .right textarea {
+    font-size: 1rem;
+  }
 }
-
 
 @media (max-width: 768px) {
-    .contact-sec {
-        flex-direction: column;
-        align-items: center;
-        gap: 40px;
-        justify-content: center;
-        align-items: center;
-    }
+  .contact-sec {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .left {
-        width: 100%;
-        text-align: center;
-    }
+  .left {
+    width: 100%;
+    text-align: center;
+  }
 
-    .left .details {
-        align-items: center;
-    }
+  .left .details {
+    align-items: center;
+  }
 
-    .right {
-        width: 100%;
-        padding: 20px;
+  .right {
+    width: 100%;
+    padding: 20px;
+  }
 
-    }
+  .right input,
+  .right textarea {
+    width: 100%;
+  }
 
-    .right input,
-    .right textarea {
-        width: 100%;
-    }
+  .right label {
+    font-size: 1rem;
+  }
 
-    .right label {
-        font-size: 1rem;
-    }
+  .right input,
+  .right textarea {
+    font-size: 0.95rem;
+  }
 
-    .right input,
-    .right textarea {
-        font-size: 0.95rem;
-    }
-
-    .icon {
-        font-size: 1.5rem;
-    }
+  .icon {
+    font-size: 1.5rem;
+  }
 }
 
-
 @media (max-width: 480px) {
-    .contact-sec {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
+  .contact-sec {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 
-    .left {
-        width: 100%;
-        text-align: center;
-    }
+  .left {
+    width: 100%;
+    text-align: center;
+  }
 
-    .right {
-        width: 100%;
-        padding: 15px;
-    }
+  .right {
+    width: 100%;
+    padding: 15px;
+  }
 
-    .right label {
-        font-size: 0.9rem;
-    }
+  .right label {
+    font-size: 0.9rem;
+  }
 
-    .right input,
-    .right textarea {
-        font-size: 0.9rem;
-    }
+  .right input,
+  .right textarea {
+    font-size: 0.9rem;
+  }
 
-    .contact-submit {
-        font-size: 0.9rem;
-    }
+  .contact-submit {
+    font-size: 0.9rem;
+  }
 
-    .icon {
-        font-size: 1.2rem;
-    }
+  .icon {
+    font-size: 1.2rem;
+  }
 }
